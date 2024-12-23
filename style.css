@@ -1,0 +1,1061 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+@media screen and (max-width:768px) {
+    body{
+        overflow-x: none;
+    }
+}
+.navbar{
+    display: flex;
+}
+.logo-1{
+    width: 170px;
+    margin-left: 50px;
+}
+.menu-1{
+    list-style: none;
+    padding-left: 15px;
+    margin-top: 37px;
+    color: rgb(105, 104, 104);
+    font-family: "Outfit", sans-serif;
+    font-size: 13px;
+}
+ul{
+    display: flex;
+}
+.menu-2{
+    margin-left: 290px;
+}
+.menu-3{
+    list-style: none;
+    padding-left: 15px;
+    margin-top: 37px;
+    color: rgb(105, 104, 104);
+    font-family: "Outfit", sans-serif;
+    font-size: 13px;
+}
+#shop{
+    color: black;
+    font-size: 15px;
+}
+@media screen and (max-width:768px){
+    
+    .logo-1{
+        width: 130px;
+        margin-left: 10px;
+    }
+    .menu-1{
+        display: none;
+    }
+    .menu-3{
+        display: none;
+    }
+    .menu-2{
+        position: absolute;
+        right:6%;
+        top:-1.5%;
+    }
+    #shop{
+        font-size: 20px;
+    }
+}
+
+.navbar-2{
+    display: flex;
+}
+.search{
+    margin-left: 65px;
+    width: 600px;
+    height: 48px;
+    padding-left: 30px;
+    font-size: 15px;
+    font-family: "Outfit", sans-serif;
+    color: black;
+    background-color: rgb(218, 216, 216);
+    border: none;
+}
+.search-2{
+    width: 170px;
+    height:50px;
+    background-color: rgb(20, 138, 108);
+    border: none;
+    font-family: "Outfit", sans-serif;
+    color: white;
+    font-size: 15px;
+}
+.logo-2{
+    display: flex;   
+}
+.logo-3{
+    padding-left: 40px;
+    margin-top: 5px;
+}
+#online{
+    margin-bottom: 50px;
+}
+.dolers{
+    padding-left: 5px;
+    font-family: "Outfit", sans-serif;
+    font-size: 11px;
+    color: gray;
+    margin-top: 10px;
+}
+@media screen and (max-width:768px){
+    .navbar-2{
+        display: flex;
+    }
+    .search{
+        width:230px;
+        border-radius: 5px 0 0 5px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+    .search-2{
+        border-radius: 0 5px 5px 0;
+        width:130px;
+        height: 48px;
+        margin-left: -4px;
+    }
+    .logo-2{
+        display: none;
+    }
+}
+
+.box{
+    display: flex;
+}
+.box-1{
+    background-image: url(Essential-restaurant-pos-features-1024x683.jpg);
+    border: 0px solid black;
+    border-radius: 5px;
+    margin-left: 65px;
+    width: 720px;
+    padding: 60px 0px 50px 70px;
+}
+.para-1{
+    font-family: "Outfit", sans-serif;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.para-2{
+        font-family: "Outfit", sans-serif;
+        font-size: 40px;
+        padding-bottom: 15px;
+}
+.para-3{
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    padding-bottom: 15px;
+}
+.in{
+    display: flex;
+    padding-bottom: 20px;
+}
+.button-1{
+    width: 200px;
+    height: 50px;
+    font-family: "Outfit", sans-serif;
+    font-size: 14px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.para-4{
+    padding:15px  0px 0px 35px;
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.para-5{
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.box-2{
+    border: 0px solid black;
+    border-radius: 5px;
+    margin-left: 30px;
+    width: 380px;
+    background-color:rgb(159, 241, 214);
+    padding: 70px 0px 70px 70px;
+}
+.para-6{
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.para-7{
+    font-family: "Outfit", sans-serif;
+    padding-bottom: 10px;
+}
+.para-8{
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+.button-2{
+    width: 200px;
+    height: 50px;
+    font-family: "Outfit", sans-serif;
+    font-size: 14px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.para-9{
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    padding:10px 0px 10px 0px;
+}
+.para-10{
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+@media screen and (max-width:768px) {
+    .box{
+        display: grid;
+        
+    }
+    .box-1{
+        display: grid;
+        padding-left: 20px;
+        width:349px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .box-2{
+        padding-left: 20px;
+        width:349px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .para-1{
+        padding:15px  0px 10px 0px;
+        font-family: "Outfit", sans-serif;
+        font-size: 12px;
+    }
+    .para-2{
+        font-family: "Outfit", sans-serif;
+        font-size: 25px;
+        padding:5px 0px 10px 0px;
+    }
+    .para-3{
+        padding:5px  0px 10px 0px;
+        font-family: "Outfit", sans-serif;
+        font-size: 13px;
+    }
+    .para-4{
+        padding-left: 15px;
+        font-family: "Outfit", sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+    }
+    .para-5{
+        font-family: "Outfit", sans-serif;
+        font-size: 15px;
+        padding:5px ;
+    }
+    .button-1{
+        width: 130px;
+        height:40px;
+        cursor: pointer;
+    }
+    .para-6{
+        font-family: "Outfit", sans-serif;
+        font-size: 13px;
+    }
+}
+
+.tab{
+    border-collapse: collapse;
+    margin: 40px 0px 0px 65px;
+    text-align: center;
+}
+table,th,td{ 
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.table-1{
+    padding: 30px 70px 30px 70px;
+    font-size: 13px;
+    font-family: "Outfit", sans-serif;
+}
+.table-2{
+    font-size: 50px;
+    font-family: "Outfit", sans-serif;
+    font-weight: bolder;
+    padding: 0px 40px 0px 40px;
+    position: relative;
+    top:20px;
+    border-bottom: none;
+}
+.table-3{
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    border-top: none;
+    padding: 0px 40px 0px 40px;
+}
+@media screen and (max-width:768px){
+    
+    
+    .tab{
+        margin-left: 20px;
+        
+    }
+    .table-1{
+        display: grid;
+        width: 45px;
+        height: 30px;
+    }
+    #item-4{
+        position: absolute;
+        right: 20px;
+        top:105.7%;
+    }
+    #item-5{
+        position: absolute;
+        right: 20px;
+        top:115.7%;
+    }
+    #item-6{
+        position: absolute;
+        right: 20px;
+        top:125.7%;
+    }
+    #item-7{
+        position: absolute;
+        right: 20px;
+        top:135.7%;
+    }
+    .table-2{
+        position: absolute;
+        left: 0;
+        top: 145.6%;
+        margin-left: 20px;
+        width: 105px;
+        border-right: none;
+        
+    }
+
+    .table-3{
+        border:none;
+        width:105px
+    }
+
+}
+
+.para-11{
+    font-size: 30px;
+    font-weight:bold;
+    margin:50px 0px 0px 100px;
+   
+}
+
+.template{
+    border: 0px solid;
+    height: 1700px;
+}
+.template-1{
+    display: grid;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 67px;
+    margin-right: 100px;
+}
+.image-1{
+    width: 500px ;
+    height: 600px;
+    border: 0px solid ;
+    border-radius: 10px ;
+    margin-bottom: 15px;
+   
+}
+.number{
+    font-family: "Outfit", sans-serif;
+    margin-bottom: 15px;
+}
+.para-12{
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.para-13{
+    font-family: "Outfit", sans-serif;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.template-1-1{
+    display:flex;
+}
+.button-4{
+    width: 170px;
+    height: 40px;
+    font-family: "Outfit", sans-serif;
+    font-size: 14px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 5px ;
+}
+.para-14{
+    font-family: "Outfit", sans-serif;
+    font-size: 14px;
+    margin:10px 0px 0px 20px
+}
+
+.template-2{
+    margin-left: 200px;
+    position: relative;
+    bottom: 407px;
+
+}
+.para-15{
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+.para-16{
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.para-17{
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.para-18{
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.button-5{
+    width: 200px;
+    height: 40px;
+    font-family: "Outfit", sans-serif;
+    font-size: 14px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 5px ;
+}
+.para-19{
+    font-family: "Outfit", sans-serif;
+    font-size: 14px;
+    margin:10px 0px 0px 20px
+}
+
+.template-3{
+    display: grid;
+    justify-content: flex-end;
+    position: relative;
+    bottom: 807px;
+    margin-right: 100px;
+    
+}
+.para-20{
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.para-21{
+    font-family: "Outfit", sans-serif;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.button-6{
+    width: 170px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-size: 14px;
+}
+
+@media screen and (max-width:768px){
+
+    .para-11{
+        
+        margin-right:25px;
+        br{
+            display: none;
+        }
+    }
+    .template{
+        margin-top: 100px;
+        height: 2300px;
+        display: grid;
+    
+    }
+    .image-1{
+        width: 390px;
+        height: 500px;
+    }
+    .template-1{
+        position: none;
+        margin:0px 0px 350px 10px;
+        margin: 50px;
+        width: 350px;
+    }
+    .template-2{
+       margin:350px 0px 350px 10px;
+    }
+    .template-3{
+        position: none;
+        margin:100px 50px 0 0;
+    }
+}
+.center{
+    height: 740px;
+text-align: center;
+border: 0px solid;
+background-color: rgb(235, 232, 232);
+}
+.para-22{
+    padding: 70px 0px 15px 0px;
+    font-family: "Outfit", sans-serif;
+}
+.para-23{
+    font-family: "Outfit", sans-serif;
+    padding-bottom: 50px;
+}
+
+.templates-1{
+    display: flex;
+    
+    border-radius: 10px;
+    width: 550px;
+    margin-left: 50px;
+}
+.template-4{
+    border: 0px solid;
+    border-radius: 5px;
+    width:600px;
+    height: 450px;
+ background-color: white;       
+}
+.tem-nav-1{
+    display: flex;
+    padding-top: 25px;
+}
+.para-24{
+    font-family: "Outfit", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0px 270px 0px 50px;
+}
+.icon-1{
+    padding-left: 5px;
+    font-size: 13px;
+}
+.icon-2{
+    position: relative;
+    bottom: 28px;
+    padding-left: 15px;
+    font-size: 13px;
+}
+.para-25{
+    font-family: "Outfit", sans-serif;
+    font-size: 11px;
+    text-align: left;
+    padding: 40px 0px 10px 50px;
+}
+.para-26{
+    font-family: "Outfit", sans-serif;
+    text-align: left;
+    font-size: 20px;
+    padding:0px 0px 10px 50px;
+    font-weight: 500;
+}
+.button-7{
+    width: 100px;
+    height: 25px;
+    display: grid;
+    justify-content: left;
+    margin: 0px 0px 10px 50px;
+    background-color: black;
+    color: white;
+    font-family: "Outfit", sans-serif;
+    font-size: 11px;
+    padding: 5px 0px 5px 15px;
+    border: none;
+    border-radius: 5px;
+}
+.image-3{
+    display: flex;
+    padding-bottom: 20px;
+}
+.sample{
+    border: 0px solid;
+    border-radius: 5px;
+    width: 130px;
+    margin-left: 20px;
+}
+@media screen and (max-width:768px){
+    .center{
+        text-align: center;
+        height: 100%;
+    }
+    .templates-1{
+        display:grid;
+        margin:0px 0px 0px 0;
+    }
+    .template-4{
+        padding:0;
+        margin: 0;
+        width: 390px;
+        height: 100%;
+        border-radius: 10px;
+        margin: 30px 30px 0px 10px;
+    }
+    .para-24{
+        padding-right: 150px;
+    }
+    .image-3{
+        display: grid;
+        border-radius: 10px;
+        margin-left: 45px;
+    }
+    .sample{
+        width: 300px;
+        height:300px;
+        margin:20px 0px 0px 0;
+    }
+}
+
+.template-5{
+    display: flex;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-left: 80px;
+    width: 550px;
+    height: 450px;
+}
+.menu-4{
+    border: 0px solid;
+    background-color: white;
+    width: 100px;
+}
+.logo-4{
+    width: 50px;
+    margin: 20px 0px 0px 0px;
+}
+.para-27{
+    font-family: "Outfit", sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+.list-2{
+    display: grid;
+    margin: 30px 0px 100px 0px;
+}
+.list-1{
+    padding-top: 10px;
+    color: gray;
+    font-family: "Outfit", sans-serif;
+    font-size: 10px;
+    list-style: none;
+    text-align: left;
+}
+.list-1:hover{
+    color: black;
+}
+.icon-2{
+    font-size: 10px;
+    margin: 30px 20px 0px 0px ;
+}
+.main-1{
+    width: 449.5px;
+    background-color: rgb(218, 184, 152);
+    background-repeat:no-repeat;
+}
+.image-5{
+margin: 50px 0px 40px 0px;
+}
+.header{
+    font-family: "Outfit", sans-serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    position: relative;
+    bottom: 200px;
+}
+.button-8{
+    background-color:transparent ;
+    border: 1px solid white;
+    width: 150px;
+    height: 30px;
+    margin-top: 10px;
+    color: white;
+    position: relative;
+    bottom: 200px;
+}
+@media screen and (max-width:768px){
+    .template-5{
+        width: 390px;
+       margin: 50px 30px 30px 10px;
+       border-radius: 10px;
+    }
+    .menu-4{
+        width: 200px;
+    }
+    .main-1{
+        width: 300px;
+        border-radius: 0px 10px 10px 0px;
+    }
+    .image-5{
+        margin-top: 150px;
+        width: 200px;
+    }
+    .list-2{
+        margin-left: 50px;
+    }
+}
+.template-6{
+    border: 0px solid ;
+    border-radius: 5px;
+    width: 300px;
+    height: 450px;
+    margin-left: 50px;
+    background-color: white;
+}
+.para-28{
+    border: 0px solid;
+    border-radius: 5px 5px 0px 0px;
+    background-color: rgb(34, 94, 34);
+    font-size: 14px;
+    color: white;
+    font-family: "Outfit", sans-serif;
+}
+.logo-5{
+    display: flex;
+    padding: 20px;
+}
+.icon-3{
+    font-size: 14px;
+    padding-left: 30px;
+}
+.para-29{
+    font-family: "Outfit", sans-serif;
+    padding-left: 55px;
+    padding-bottom: 10px;
+}
+.image-6{
+    width: 270px;
+}
+.para-30{
+    font-family: "Outfit", sans-serif;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.para-31{
+    padding-bottom: 10px;
+    font-family: "Outfit", sans-serif;
+    font-size: 15px;
+}
+.button-9{
+    width: 100px;
+    height: 30px;    
+    margin: 10px 10px 0px 20px;
+    font-family: "Outfit", sans-serif;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px
+}
+.new{
+    color: white;
+    border: 0px solid;
+    width: 45px;
+    padding: 10px 0px 10px 0px;
+    border-radius: 50%;
+    background-color: green;
+}
+.button-11{
+    width: 200px;
+    height: 35px;
+    margin-top:30px;
+    margin-bottom: 30px;
+    font-family: "Outfit", sans-serif;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.foot-1-1{
+    border: 1px solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: black;
+}
+.foot-1{
+    display: flex;
+    margin:0px 0px 20px 50px;
+
+}
+.foot-2{
+    display: flex;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.para-32{
+    font-family: "Outfit", sans-serif;
+    color: white;
+    margin:20px  550px 0px 0px;
+}
+.para-33{
+    font-family: "Outfit", sans-serif;
+    color: gray;
+    font-size: 17px;
+    margin:20px  0px 0px 0px;
+}
+.email{
+    font-family: "Outfit", sans-serif;
+    width: 530px;
+    height: 40px;
+    padding-left: 40px;
+    background-color: rgb(56, 56, 56);
+    color: aliceblue;
+    border: none;
+}
+.button-10{
+    width: 150px;
+    font-family: "Outfit", sans-serif;
+    font-weight: 500;   
+}
+.image-7{
+    margin-left: 50px;
+    width: 150px;
+    height: 40px;
+}
+.para-34{
+    font-family: "Outfit", sans-serif;
+    color: white;
+    font-size: 30px;
+}
+.image-8{
+    width: 100px;
+    height: 40px;
+}
+.foot-details{
+    display: flex;
+    background-color: black;
+}
+.para-35{
+    font-family: "Outfit", sans-serif;
+    color: white;
+    font-size: 15px;
+    margin: 50px 0px 20px 60px;
+}
+.list-3{
+    display: grid;
+}
+.list-4{
+    font-family: "Outfit", sans-serif;
+    color:gray;
+    list-style: none;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 0px 0px 20px 60px;
+}
+.list-4:hover{
+    color: white;
+}
+@media screen and (max-width:768px) {
+    .foot-1{
+        display: grid;
+    }
+    .para-32{
+        margin-right: 0;
+    }
+    .foot-2{
+    display: grid;
+    }
+    .email{
+        width: 200px;
+    }
+    .button-10{
+        position: absolute;
+        right: 22px;
+        height: 40px;
+        width: 100px;
+    }
+    .image-7{
+        width: 100px;
+        height: 30px;
+        margin: 20px 40px 0px 0px;
+    }
+    .para-34{
+        font-size: 20px;
+        position: absolute;
+        right: 170px;
+        top:719.4%;
+    }
+    .image-8{
+        position: absolute;
+        right: 30px;
+        top: 719%;
+        width: 70px;
+    }
+         .foot-details{
+            display: grid;
+        }
+        .help{
+            position: absolute;
+            right: 0;
+            width: 200px;
+        }
+        .shopping-1{
+            position: absolute;
+            right: 0;
+            top: 764%;
+            width: 200px;
+        }
+        .account{
+            position: absolute;
+            right: 0;
+            top: 816.5%;
+            width: 200px;
+        }
+        .about{
+            width: 200px;
+        }
+        .sources{
+            width: 200px;
+        }
+}
+
+.foot-3{
+    display: flex;
+    background-color: black;
+}
+.image-9{
+    width: 150px;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+.para-36{
+    font-family: "Outfit", sans-serif;
+    color: white;
+    font-size: 17px;
+    margin: 50px 20px 0px 50px;
+}
+.para-37{
+    font-family: "Outfit", sans-serif;
+    color: white;
+    margin: 50px 20px 0px 50px;
+    font-size: 17px;
+}
+.book-2{
+    padding: 50px 0px 10px 650px;
+}
+.book-1{
+    color: white;
+    font-size: 25px;
+    padding-left: 10px;
+}
+.line{
+    color:white;
+}
+@media screen and (max-width:768px){
+    .foot-3{
+        display: grid;
+    }
+    .image-9{
+        width: 150px;
+        height: 40px;
+        margin-right: 30px;
+    }
+    .para-36{
+        position: absolute;
+        right: 0;
+    }
+    .para-37{
+        text-align: right;
+        margin-top:10px;
+    }
+    .book-2{
+        display: flex;
+        justify-content: center;
+        margin: 20px 0 20px 0;
+    padding: 0;
+    }
+
+}
+
+
+.foot-4{
+    display: flex;
+    background-color: black;
+    border: 1px solid white;
+    padding-bottom: 20px;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+.copy-1{
+    font-family: "Outfit", sans-serif;
+    color: white;
+    font-size: 9px;
+    margin: 10px 0px 15px 0px;
+}
+.copy-2{
+    font-family: "Outfit", sans-serif;
+    color: white;
+    font-size: 9px;
+    margin: 10px 0px 10px 0px;
+}
+.list-5{
+    display: flex;
+}
+.list-6{
+    font-family: "Outfit", sans-serif;
+    color: white;
+    list-style: none;
+    padding: 10px 0px 10px 10px;
+    font-size: 11px;
+}
+.para-38{
+    font-family: "Outfit", sans-serif;
+    color: white;
+    font-size: 10px;
+    padding: 0px 0px 10px 50px;
+}
+@media screen and (max-width:768px){
+    .foot-4{
+        height: 120px;
+        display: grid;
+    }
+    .copy{
+        text-align: center;
+    }
+    .list-5{
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        left: 10px;
+        padding-bottom: 10px;
+    }
+    .para-38{
+    position: absolute;
+    right: 0;
+    padding: 0;
+    font-size: 11px;
+    }
+}
