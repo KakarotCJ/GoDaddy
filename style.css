@@ -40,7 +40,7 @@ ul{
     font-size: 13px;
 }
 #shop{
-    color: black;
+        color: black;
     font-size: 15px;
 }
 @media screen and (max-width:768px){
@@ -55,12 +55,8 @@ ul{
     .menu-3{
         display: none;
     }
-    .menu-2{
-        position: absolute;
-        right:6%;
-        top:-1.5%;
-    }
     #shop{
+        position: none;
         font-size: 20px;
     }
 }
@@ -110,7 +106,7 @@ ul{
         display: flex;
     }
     .search{
-        width:230px;
+        width:310px;
         border-radius: 5px 0 0 5px;
         margin-bottom: 10px;
         margin-left: 10px;
@@ -228,33 +224,33 @@ ul{
     .box-1{
         display: grid;
         padding-left: 20px;
-        width:349px;
+        width:425px;
         margin-top: 20px;
         margin-left: 20px;
     }
     .box-2{
         padding-left: 20px;
-        width:349px;
+        width:425px;
         margin-top: 20px;
         margin-left: 20px;
     }
     .para-1{
-        padding:15px  0px 10px 0px;
+        padding:15px  0px 10px 20px;
         font-family: "Outfit", sans-serif;
         font-size: 12px;
     }
     .para-2{
         font-family: "Outfit", sans-serif;
         font-size: 25px;
-        padding:5px 0px 10px 0px;
+        padding:5px 0px 10px 20px;
     }
     .para-3{
-        padding:5px  0px 10px 0px;
+        padding:5px  0px 10px 20px;
         font-family: "Outfit", sans-serif;
         font-size: 13px;
     }
     .para-4{
-        padding-left: 15px;
+        padding-left: 30px;
         font-family: "Outfit", sans-serif;
         font-size: 15px;
         font-weight: 700;
@@ -263,15 +259,44 @@ ul{
         font-family: "Outfit", sans-serif;
         font-size: 15px;
         padding:5px ;
+        padding-left: 20px;
     }
     .button-1{
         width: 130px;
         height:40px;
+        margin-left: 20px;
         cursor: pointer;
     }
     .para-6{
         font-family: "Outfit", sans-serif;
         font-size: 13px;
+        padding-left: 20px;
+    }
+    .para-7{
+        font-family: "Outfit", sans-serif;
+        font-size: 30px;
+        padding-left: 20px;
+    }
+    .para-8{
+        font-family: "Outfit", sans-serif;
+        font-size: 13px;
+        padding-left: 20px;
+    }
+    .para-9{
+        font-family: "Outfit", sans-serif;
+        font-size: 13px;
+        padding-left: 20px;
+    }
+    .para-10{
+        font-family: "Outfit", sans-serif;
+        font-size: 13px;
+        padding-left: 20px;
+    }
+    .button-2{
+        width: 130px;
+        height:40px;
+        margin-left: 20px;
+        cursor: pointer;
     }
 }
 
@@ -309,46 +334,45 @@ table,th,td{
     
     .tab{
         margin-left: 20px;
-        
     }
     .table-1{
         display: grid;
-        width: 45px;
+        width: 80px;
         height: 30px;
     }
     #item-4{
         position: absolute;
-        right: 20px;
-        top:105.7%;
+        right: 17px;
+        top:101.5%;
     }
     #item-5{
         position: absolute;
-        right: 20px;
-        top:115.7%;
+        right: 17px;
+        top:111.4%;
     }
     #item-6{
         position: absolute;
-        right: 20px;
-        top:125.7%;
+        right: 17px;
+        top:121.4%;
     }
     #item-7{
         position: absolute;
-        right: 20px;
-        top:135.7%;
+        right: 17px;
+        top:131.2%;
     }
     .table-2{
         position: absolute;
         left: 0;
-        top: 145.6%;
+        top: 142.4%;
         margin-left: 20px;
         width: 105px;
-        border-right: none;
-        
+        border: none;
     }
 
     .table-3{
         border:none;
-        width:105px
+        width:140px;
+        height: 110px;
     }
 
 }
@@ -502,21 +526,20 @@ table,th,td{
     
     }
     .image-1{
-        width: 390px;
+        width: 420px;
         height: 500px;
     }
     .template-1{
         position: none;
-        margin:0px 0px 350px 10px;
-        margin: 50px;
-        width: 350px;
+        margin:0px 0px 100px 40px;
+        width: 400px;
     }
     .template-2{
-       margin:350px 0px 350px 10px;
+       margin:350px 0px 420px 20px;
     }
     .template-3{
         position: none;
-        margin:100px 50px 0 0;
+        margin:100px 50px 100px 20px;
     }
 }
 .center{
@@ -609,6 +632,7 @@ background-color: rgb(235, 232, 232);
     .center{
         text-align: center;
         height: 100%;
+        width: 450px;
     }
     .templates-1{
         display:grid;
@@ -617,10 +641,10 @@ background-color: rgb(235, 232, 232);
     .template-4{
         padding:0;
         margin: 0;
-        width: 390px;
+        width: 400px;
         height: 100%;
         border-radius: 10px;
-        margin: 30px 30px 0px 10px;
+        margin: 30px 15px 0px 25px;
     }
     .para-24{
         padding-right: 150px;
@@ -706,8 +730,8 @@ margin: 50px 0px 40px 0px;
 }
 @media screen and (max-width:768px){
     .template-5{
-        width: 390px;
-       margin: 50px 30px 30px 10px;
+        width: 400px;
+       margin: 50px 30px 30px 23px;
        border-radius: 10px;
     }
     .menu-4{
@@ -796,6 +820,49 @@ margin: 50px 0px 40px 0px;
     border: none;
     border-radius: 5px;
 }
+@media screen and (max-width:768px){
+.template-6{
+width: 400px;
+height: 550px;
+margin: 0px 0px 0px 20px;
+}
+.para-28{
+font-size: 20px;
+font-weight: 600;
+}
+.icon-3{
+    margin-left: 0;
+font-size: 25px;
+}
+#icon-10{
+    position: absolute;
+    left: 10px;
+}
+#icon-11{
+    position: absolute;
+    right: 80px;
+}
+.para-29{
+    font-size: 20px;
+    margin-left: 80px;
+}
+.image-6{
+width: 350px;
+margin-bottom: 20px;
+}
+.para-30{
+    font-size: 25px;
+    br{
+        display: none;
+    }
+}
+.para-31{
+    font-size: 15px;
+    br{
+        display: none;
+    }
+}
+}
 
 .foot-1-1{
     border: 1px solid white;
@@ -881,6 +948,9 @@ margin: 50px 0px 40px 0px;
     .foot-1{
         display: grid;
     }
+    .foot-1-1{
+        width: 450px;
+    }
     .para-32{
         margin-right: 0;
     }
@@ -888,11 +958,11 @@ margin: 50px 0px 40px 0px;
     display: grid;
     }
     .email{
-        width: 200px;
+        width: 230px;
     }
     .button-10{
         position: absolute;
-        right: 22px;
+        right: 60px;
         height: 40px;
         width: 100px;
     }
@@ -904,33 +974,34 @@ margin: 50px 0px 40px 0px;
     .para-34{
         font-size: 20px;
         position: absolute;
-        right: 170px;
-        top:719.4%;
+        right: 200px;
+        top:717.4%;
     }
     .image-8{
         position: absolute;
-        right: 30px;
-        top: 719%;
+        right: 70px;
+        top: 717.4%;
         width: 70px;
     }
          .foot-details{
             display: grid;
+            width: 450px;
         }
         .help{
             position: absolute;
-            right: 0;
+            right: 30px;
             width: 200px;
         }
         .shopping-1{
             position: absolute;
-            right: 0;
+            right: 30px;
             top: 764%;
             width: 200px;
         }
         .account{
             position: absolute;
-            right: 0;
-            top: 816.5%;
+            right: 30px;
+            top: 813.5%;
             width: 200px;
         }
         .about{
@@ -976,24 +1047,25 @@ margin: 50px 0px 40px 0px;
 @media screen and (max-width:768px){
     .foot-3{
         display: grid;
+        width: 450px;
     }
     .image-9{
         width: 150px;
         height: 40px;
-        margin-right: 30px;
+      
     }
     .para-36{
         position: absolute;
-        right: 0;
+        right: 50px;
     }
     .para-37{
-        text-align: right;
+        text-align: center;
         margin-top:10px;
     }
     .book-2{
         display: flex;
         justify-content: center;
-        margin: 20px 0 20px 0;
+        margin: 40px 0 20px 0;
     padding: 0;
     }
 
@@ -1039,10 +1111,12 @@ margin: 50px 0px 40px 0px;
 }
 @media screen and (max-width:768px){
     .foot-4{
-        height: 120px;
+        width: 450px;
+        height: 140px;
         display: grid;
     }
     .copy{
+        width: 400px;
         text-align: center;
     }
     .list-5{
@@ -1054,8 +1128,8 @@ margin: 50px 0px 40px 0px;
     }
     .para-38{
     position: absolute;
-    right: 0;
-    padding: 0;
+    right: 50px;
+    padding-top:10px ;
     font-size: 11px;
     }
 }
